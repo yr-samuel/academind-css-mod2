@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+
+.highlighted-code {
+    color: green;
+}
+
+h1 {
+    color: #ff9911;
+    font-family: sans-serif;
+}
+
+code {
+    font-family: monospace;
+    color: red;
+}
+
+li {
+    font-family: inherit;
+}
+
+li + li { /* this way exclude first li, with ~ would be the same result */
+    background-color: black;
+    color: white;
+}
+
+ol > li {
+    background-color: black;
+    color: white;
+}
